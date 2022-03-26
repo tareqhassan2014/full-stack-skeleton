@@ -201,7 +201,7 @@ export default function Header() {
                                         navigate(setting.link);
 
                                         if (setting.page === 'Logout') {
-                                            dispatch(logOut);
+                                            dispatch(logOut());
                                         }
                                     }}
                                 >
